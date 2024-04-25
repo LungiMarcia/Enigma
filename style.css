@@ -51,25 +51,25 @@ li a {
 }
 
 /*Footer Styles*/
-footer{
+footer {
   text-align: center;
   margin-top: 100px;
 }
-.footer-contect{
+.footer-contect {
   display: grid;
   grid-template-columns: 25% 25% 50%;
 }
-.links a{
+.links a {
   text-decoration: none;
 }
- footer p{
+footer p {
   margin-top: 100px;
   margin-bottom: 50px;
- }
+}
 
 /*slideshow styles */
 .slideshow {
-  scale: .5;
+  scale: 0.5;
   position: relative;
   overflow: hidden;
   z-index: 900;
@@ -89,7 +89,7 @@ footer{
   height: auto;
   text-align: center;
 }
-.slide p{
+.slide p {
   text-align: center;
   font-family: "Jost", sans-serif;
   scale: 2;
@@ -103,4 +103,3 @@ footer{
     opacity: 1;
   }
 }
-
