@@ -5,6 +5,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Jost", sans-serif;
   background-color: #cccccc;
 }
@@ -17,6 +18,7 @@ header {
   background-color: cadetblue;
   display: flex;
   justify-content: space-around;
+  z-index: 1000;
 }
 
 .logo {
@@ -48,30 +50,57 @@ li a {
   margin-top: 1rem;
 }
 
-
 /*Footer Styles*/
 footer{
   text-align: center;
   margin-top: 100px;
 }
-.footer-content{
+.footer-contect{
   display: grid;
   grid-template-columns: 25% 25% 50%;
 }
 .links a{
   text-decoration: none;
-  color: #1f242d;
-}
-.links a:hover{
-  color: cadetblue;
 }
  footer p{
   margin-top: 100px;
   margin-bottom: 50px;
  }
- .phone{
-  margin-top: 10px;
- }
- .email{
-  margin-top: -40px;
- }
+
+/*slideshow styles */
+.slideshow {
+  scale: .5;
+  position: relative;
+  overflow: hidden;
+  z-index: 900;
+}
+
+.slide {
+  height: 100%;
+  min-width: 100%;
+  padding: auto;
+  scroll-snap-align: start;
+  opacity: 0;
+  animation: fade 2s ease-in-out forwards;
+}
+.slide img {
+  border-radius: 5%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.slide p{
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  scale: 2;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
