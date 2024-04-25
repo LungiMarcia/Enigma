@@ -54,14 +54,24 @@ footer{
   text-align: center;
   margin-top: 100px;
 }
-.footer-contect{
+.footer-content{
   display: grid;
   grid-template-columns: 25% 25% 50%;
 }
 .links a{
   text-decoration: none;
+  color: #1f242d;
+}
+.links a:hover{
+  color: cadetblue;
 }
  footer p{
   margin-top: 100px;
   margin-bottom: 50px;
+ }
+ .phone{
+  margin-top: 10px;
+ }
+ .email{
+  margin-top: -40px;
  }
