@@ -47,3 +47,21 @@ li a {
 .intro p {
   margin-top: 1rem;
 }
+
+
+/*Footer Styles*/
+footer{
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-contect{
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+}
+.links a{
+  text-decoration: none;
+}
+ footer p{
+  margin-top: 100px;
+  margin-bottom: 50px;
+ }
