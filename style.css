@@ -50,6 +50,31 @@ li a {
   margin-top: 1rem;
 }
 
+.picture {
+  display:inline-block;
+  border:5px solid midnightblue;
+  border-radius: 10px;
+  margin: 25px;
+}
+.back p{
+  width:300px; 
+  height: 160px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+  padding: 0 0;
+}
+.picture img{
+  width:350px;
+  height:220px;
+}
+.picture .back{
+  display: none;
+  padding: 10px;
+  background-color:plum;
+}
+
+
 /*Footer Styles*/
 footer {
   text-align: center;
@@ -61,10 +86,11 @@ footer {
 }
 .links a {
   text-decoration: none;
+
 }
 footer p {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 /*slideshow styles */

@@ -13,3 +13,11 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 5000); // Change slide every 2 seconds (adjust as needed)
 }
+
+function showText(element) {
+  element.querySelector(".back").style.display = "block";
+}
+
+function hideText(element) {
+  element.querySelector(".back").style.display = "none";
+}
