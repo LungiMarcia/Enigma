@@ -56,6 +56,9 @@ li a {
   border-radius: 10px;
   margin: 25px;
 }
+
+
+
 .back p{
   width:300px; 
   height: 160px;
@@ -74,11 +77,45 @@ li a {
   background-color:rgba(221, 160, 221, 0);
 }
 
+ref h3{
+  font-family: oswald;
+  font-size: large;
+  scale: 2;
+}
+
+.ref {
+  display: inline-block;
+  border: 5px solid rgba(25, 25, 112, 0);
+  border-radius: 10px;
+  margin: 25px;
+  margin-right: 80px;
+  float: right;
+}
+
+.back p {
+  width: 300px;
+  height: 160px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+  padding: 0 0;
+}
+
+.ref img {
+  width: 350px;
+  height: 220px;
+}
+
+.ref .back {
+  display: none;
+  padding: 10px;
+  background-color: rgba(221, 160, 221, 0);
+}
 
 /*Footer Styles*/
 footer {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 600px;
 }
 .footer-content {
   display: grid;
@@ -86,10 +123,9 @@ footer {
 }
 .links a {
   text-decoration: none;
-
   color: #1f242d;
 }
-.links a:hover{
+.links a:hover {
   color: cadetblue;
 }
 
@@ -98,8 +134,21 @@ footer p {
   margin-bottom: 30px;
 }
 
+h2 {
+  margin-top: 45px;
+}
+h3{
+  font-family: oswald;
+  font-size: large;
+  scale: 2;
+}
+
+
 /*slideshow styles */
 .slideshow {
+  
+  margin-bottom: 30px;
+  border-color: blue;
   justify-content: center;
   scale: 0.5;
   position: relative;
@@ -152,10 +201,6 @@ footer p {
 }
 .about-us-info{
   padding-right: 300px;
-  margin-top: 20px;
-}
-.about-us-info h3{
-  padding: 20px 0;
 }
 .our-mission{
   display: grid;
@@ -165,7 +210,6 @@ footer p {
 }
 .our-mission h3{
   text-align: center;
-  padding: 20px 0;
 }
 .our-mission p{
   text-align: center;
@@ -176,13 +220,11 @@ footer p {
 }
 .why-choose-us h3{
   text-align: center;
-  padding: 20px 0;
 }
 .why-choose-us .items{
   display: flex;
 }
 .why-choose-us p{
-  padding-top: 0px;
+  padding-top: 6.5px;
   padding-left: 5px;
-  padding-bottom: 10px;
 }
