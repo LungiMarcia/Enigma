@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />  
+  <link rel="stylesheet" href="./contact.css"/>
+  <link rel="script" href="./script.js"/>
+ </head>
+<body>
+  <header>
+      <div class="logo"><img src="images/logo.png" alt="" width="200" /></div>
+      <nav class="navBar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="intro">
+        <h1>WELCOME TO OUR COMMUNITY</h1>
+        <p>
+          In today's rapidly evolving digital landscape, cybersecurity and AI
+          play increasingly critical roles in shaping the way we interact with
+          technology. With the proliferation of interconnected devices and the
+          growing sophistication of cyber threats, understanding the
+          intersection of cybersecurity and AI is more important than ever.
+          Enigma aims to provide valuable insights, practical tips, and the
+          latest news to help you navigate this complex and dynamic field.
+          Whether you're a cybersecurity professional, an AI enthusiast, or
+          simply someone interested in learning more about these topics, we
+          invite you to explore our resources and join us in building a safer
+          and more secure digital future.
+        </p>
+      </div>
+    </section> 
+    <section class="slideshow">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="images/1.png" alt="Slide 1">
+          <p>Data Theft</p>
+        </div>
+        <div class="slide">
+          <img src="images/2.png" alt="Slide 2">
+          <p>Phishing</p>
+        </div>
+        <div class="slide">
+          <img src="images/3.png" alt="Slide 3">
+          <p>Phishing Credentials</p>
+        </div>
+        <div class="slide">
+          <img src="images/4.png" alt="Slide 4">
+          <p>Credit Card Theft</p>
+        </div>
+        <div class="slide">
+          <img src="images/5.jpg" alt="Slide 5">
+          <p>Unsecured Data</p>
+        </div>
+        <div class="slide">
+          <img src="images/6.png" alt="Slide 6">
+          <p>Unauthorized Users</p>
+        </div>
+      </div>
+    </section> 
+
+<h1 style="padding-left: 400px;">PRODUCTS AND SERVICES</h1>
+
+    <!-- Mini Services Section Markup -->
+    <section class="mini-services">
+      <div class="mini-services_item">
+        <img style="height: 100px;" src="./images/1.png" alt="">
+        <h3>CYBERSECURITY</h3>
+        <p>
+
+          AI plays a pivotal role in cybersecurity by enabling faster threat detection, identifying patterns in malicious activities , and enhancing overall defense mechanisms. <br> <br> It analyzes vast amountes od data to predict and prevent cyber attacks, thus bolstering online safety. Similarly , in safeguarding children from harmful websites, AI filters can block access to innappropriate content, including pornographic sites and platforms used by predatords. <br><br> By leveraging AI technologies, parents and guardians can establish robust controls to protect children from online threaths and create a safer digital environment for them to explore and learn. 
+
+        </p>
+      </div>
+      <div class="mini-services_item">
+        <img style="height: 100px ;"   src="./images/2.png" alt="">
+        <h3>AI</h3>
+        <p>
+AI and Machine Learning can play a crucial role in safeguarding children from potential predators and harmful individuals online. By employing algorithms that analyze online interactions and content, AI can detect patterns indicative of predatory behaviour or attemps to groom children . <br> <br> These systems can scan for keywords and behaviours associated with sexual predators and individua's posing a threat to childrens safety. <br> Parents can utilize AI-driven monitoring tools that prioritize child safety without compromising privacy unnecessarily . <br> Implementing such measures can provide parents with peace of mind while empowering children to explore the digital world safety. 
+        </p>
+      </div>
+      <div class="mini-services_item">
+        <img style="height: 100px;" src="./images/4.png" alt="">
+        <h3>DIGITAL HEALTH</h3>
+        <p>
+         Digital Health refers to the convergance of digital technologies with healthcare to enhance the Efficiency of healthcare delivery and improve patient outcomes. It encompasses various aspects such as electronic health records, telemedicine , wearable devices , health apps and more.
+         <br> <br> AI can indeed assist humans with their digital health in numerous ways. <br> AI-powered algorithms can analyze vast amounts of health data to identify patterns ,predict desease outbreaks, personalize treatment plans , and even assist in diagnosis . <br>
+        </p>
+      </div>
+    </section>
+    <!-- End Mini Services Section Markup -->
+
+
+
+
+
+
+    
+
+    <table style= "" id="mainTable">
+
+      <tr>
+          <td width="50%">
+
+              <div class="infoBox">
+               <div class="container">
+                  <h1>Contact Us</h1>
+                  <p>Please feel free to contact us, and I will get back to you as soon as possible</p>
+                  <form onsubmit="handleFormSubmit(event)"
+            >
+              <label>
+                Your email:
+                <input id="email" type="email" name="email" autocomplete="off">
+                <span class="hidden non email html-element" id="email-span">Email is Invalid</span>
+              </label>
+              <label>
+                Your message:
+                <textarea id="message" name="message"></textarea>
+                <span class="hidden non message html-element" id="message-span">Message is Invalid</span>
+              </label>
+              
+            </form>
+                </div>
+                
+                <div id="btns">
+                
+                    <button onclick="Send()" id="btn1">Send</button>
+                
+                
+                    <button id="btn">Cancel</button>
+                
+                </div>
+
+             </div>
+              
+          </td>
+
+          <td align="center">
+              
+              <div class="infoBox">
+                <!-- Our Clients Markup -->
+
+    <section class="partners-section">
+      <H1>Clients Reviews And Reference</H1>
+      <div class="picture" onmouseover="showText(this)" onmouseout="hideText(this)">
+        <img style="width: 150px;"   src="./images/Laban2Tech (2) (1).png" alt="Picture 1">
+        <div class="back"><p>"Your enlightening cybersecurity session and invaluable guidance have empowered me to navigate the digital world securely. Grasping internet risks and the importance of protecting sensitive data, I'm now equipped to safeguard myself and my business.
+          Thank you for shedding light on these crucial matters!"-A Happy Customer</p></div>
+    </div>
+    
+    <div class="picture" onmouseover="showText(this)" onmouseout="hideText(this)">
+        <img style="height: 150px;" src="./images/Blue Elegant Concept Foundation Logo (1).png" alt="Picture 2">
+        <div class="back"><p>"Exploring the link between digital health and cybersecurity, alongside AI's transformative role, has been eye-opening. 
+            It's vital to safeguard medical data and advocate for stronger measures, empowering proactive well-being management and inspiring hope for improved health outcomes"-A Nurse</p></div>
+    </div>
+    
+    <div class="picture" onmouseover="showText(this)" onmouseout="hideText(this)">
+        <img  style=" width: 250px; height: 200px;"  src="./images/logo.png" alt="Picture 3">
+        <div class="back"><p>Your presentation on AI and its role in cybersecurity was nothing short of enlightening for our students. 
+          They left with a deeper understanding of how AI can enhance their online safety and contribute to a secure digital environment. 
+            Thank you for sharing your expertise and inspiring our future innovators."- A Teacher</p></div>
+    </div>
+    </section>
+    <!-- Our Clients Markup -->
+              </div>    
+                  
+          </td>
+      </tr>    
+  </table>
+
+    <footer>
+      <div class="footer-content">
+        <div class="socails">
+          <a href=""><img src="./social-icons/icons8-facebook.svg" alt=""></a>
+          <a href=""><img src="./social-icons/icons8-instagram.svg" alt=""></a>
+          <a href=""><img src="./social-icons/icons8-linkedin.svg" alt=""></a>
+          <a href=""><img src="./social-icons/icons8-twitterx.svg" alt=""></a>
+        </div>
+        <div class="links">
+          <h3>Quick Links</h1>
+          <a href="https://www.springboard.com/resources/learning-paths/cybersecurity-foundations/" target="_blank">Free Cybersecurity Course</a><br>
+          <a href="https://www.futurelearn.com/courses/introduction-to-cyber-security" target="_blank">Introduction to Cyber Security</a><br>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.651586441131!2d28.26519672525393!3d-25.749033127359862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95612f27644969%3A0xf3a493d04b5170a1!2sThe%20Innovation%20Hub!5e0!3m2!1sen!2sza!4v1714041995443!5m2!1sen!2sza" width="400" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <p>Copyright © 2024&nbsp;Enigma - All Rights Reserved<br></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
