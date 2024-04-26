@@ -80,14 +80,19 @@ footer {
   text-align: center;
   margin-top: 100px;
 }
-.footer-contect {
+.footer-content {
   display: grid;
   grid-template-columns: 25% 25% 50%;
 }
 .links a {
   text-decoration: none;
 
+  color: #1f242d;
 }
+.links a:hover{
+  color: cadetblue;
+}
+
 footer p {
   margin-top: 40px;
   margin-bottom: 30px;
